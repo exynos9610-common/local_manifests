@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
     <!-- Device Tree's -->
-    <project path="device/motorola/targets" name="exynos9610-common/device_motorola_targets" remote="github" revision="master" />
-    <project path="device/motorola/kane" name="exynos9610-common/device_motorola_kane" remote="github" revision="lineage-20" />
-    <project path="device/motorola/troika" name="exynos9610-common/device_motorola_troika" remote="github" revision="lineage-20" />
-    <project path="device/motorola/exynos9610-common" name="exynos9610-common/device_motorola_exynos9610-common" remote="github" revision="lineage-20" />
-    <project path="vendor/motorola/kane" name="exynos9610-common/vendor_motorola_kane" remote="github" revision="13" />
-    <project path="vendor/motorola/troika" name="exynos9610-common/vendor_motorola_troika" remote="github" revision="13" />
-    <project path="vendor/motorola/exynos9610-common" name="exynos9610-common/vendor_motorola_exynos9610-common" remote="github" revision="13" />
+    <project path="device/motorola/targets" name="exynos9610-common/device_motorola_targets" remote="github" revision="thirteen" />
+    <project path="device/motorola/kane" name="exynos9610-common/device_motorola_kane" remote="github" revision="thirteen" />
+    <project path="device/motorola/troika" name="exynos9610-common/device_motorola_troika" remote="github" revision="thirteen" />
+    <project path="device/motorola/exynos9610-common" name="exynos9610-common/device_motorola_exynos9610-common" remote="github" revision="thirteen" />
+    <project path="vendor/motorola/kane" name="exynos9610-common/vendor_motorola_kane" remote="github" revision="thirteen" />
+    <project path="vendor/motorola/troika" name="exynos9610-common/vendor_motorola_troika" remote="github" revision="thirteen" />
+    <project path="vendor/motorola/exynos9610-common" name="exynos9610-common/vendor_motorola_exynos9610-common" remote="github" revision="thirteen" />
     
     <!-- Kernel -->
-    <project path="kernel/motorola/exynos9610" name="exynos9610-common/kernel_motorola_exynos9610" remote="github" revision="13" />
+    <project path="kernel/motorola/exynos9610" name="exynos9610-common/kernel_motorola_exynos9610" remote="github" revision="thirteen" />
     
     <!-- Dependencies -->
     <project path="hardware/motorola" name="LineageOS/android_hardware_motorola" remote="github" revision="lineage-20" />
@@ -25,5 +25,5 @@
     <project path="hardware/samsung_slsi/scsc_wifibt/wpa_supplicant_lib" name="LineageOS/android_hardware_samsung_slsi_scsc_wifibt_wpa_supplicant_lib" remote="github" revision="lineage-20" />
 
     <!-- Signed keys -->
-    <project path="vendor/lineage-priv/keys" name="exynos9610-common/signed_keys" remote="github" revision="lineage" />
+    <project path="vendor/lineage-priv/keys" name="exynos9610-common/signed_keys" remote="github" revision="master" />
 </manifest>
