@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
     <!-- Device Tree's -->
+    <project path="device/motorola/targets" name="exynos9610-common/device_motorola_targets" remote="github" revision="master" />
     <project path="device/motorola/kane" name="exynos9610-common/device_motorola_kane" remote="github" revision="lineage-20" />
     <project path="device/motorola/troika" name="exynos9610-common/device_motorola_troika" remote="github" revision="lineage-20" />
     <project path="device/motorola/exynos9610-common" name="exynos9610-common/device_motorola_exynos9610-common" remote="github" revision="lineage-20" />
