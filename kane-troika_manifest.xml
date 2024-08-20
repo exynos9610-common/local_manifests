@@ -25,5 +25,5 @@
     <project path="hardware/samsung_slsi/scsc_wifibt/wpa_supplicant_lib" name="LineageOS/android_hardware_samsung_slsi_scsc_wifibt_wpa_supplicant_lib" remote="github" revision="lineage-20" />
 
     <!-- Signed keys -->
-    <project path="vendor/lineage-priv/keys" name="exynos9610-common/signed_keys" remote="github" revision="master" />
+    <project path="vendor/derp/signing/keys" name="exynos9610-common/signed_keys" remote="github" revision="master" />
 </manifest>
